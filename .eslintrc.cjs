@@ -49,5 +49,6 @@ module.exports = {
     'react/jsx-no-target-blank': 'off',
     '@typescript-eslint/explicit-function-return-type': ['off'],
     '@typescript-eslint/no-non-null-assertion': 'off'
-  }
+  },
+  ignorePatterns: [".eslintrc.cjs", "vite.config.ts"]
 }
